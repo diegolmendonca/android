@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#7eac64" >
+
+    <com.components.Line
+        android:layout_width="80dp"
+        android:layout_height="2dp"
+        android:layout_alignLeft="@+id/jogos_em_casa"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="15dp"
+        android:background="#969696" />
+
+    <com.components.Line
+        android:layout_width="80dp"
+        android:layout_height="2dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignRight="@+id/jogos_em_casa"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="15dp"
+        android:background="#969696" />
+
+    <com.components.Text
+        android:id="@+id/jogos_em_casa"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="5dp"
+        android:gravity="center"
+        android:textColor="@android:color/white"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:typeface="sans" />
+
+    <LinearLayout
+        android:id="@+id/service_history_circles"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@+id/jogos_em_casa"
+        android:layout_marginTop="15dp"
+        android:orientation="horizontal" >
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2" >
+
+            <com.components.Text
+                android:id="@+id/posicao"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentTop="true"
+                android:textColor="@android:color/white"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                android:layout_marginRight="10dp"
+                android:typeface="sans" />
+
+            <ImageView
+                android:id="@+id/homeSymbolStatis"
+                android:layout_width="45dp"
+                android:layout_height="45dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="35dp" />
+        </RelativeLayout>
+    </LinearLayout>
+    
+        
+
+
+</RelativeLayout>

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ECF0EF" >
+
+    <LinearLayout
+        android:id="@+id/linear_ad_lotogol"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="11" >
+
+        <com.google.android.gms.ads.AdView
+            android:id="@+id/adViewLotogol"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="11"
+            ads:adSize="BANNER"
+            ads:adUnitId="ca-app-pub-2728430253641042/9339717617" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linear_loteca"
+        android:layout_width="match_parent"
+        android:layout_height="30dip"
+        android:layout_below="@+id/linear_ad_lotogol"
+        android:background="#0289B4"
+        android:weightSum="11" >
+
+        <com.components.Text
+            android:id="@+id/jogo_lotogol"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_weight="5.5"
+            android:gravity="left"
+            android:text="Jogo	Times"
+            android:textColor="@android:color/white"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:typeface="sans" />
+
+        <com.components.Text
+            android:id="@+id/placar"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_weight="4"
+            android:gravity="left"
+            android:text="Placar"
+            android:textColor="@android:color/white"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:typeface="sans" />
+    </LinearLayout>
+
+    <com.components.Line
+        android:id="@+id/line"
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/linear_loteca"
+        android:background="@color/header_title_line" />
+
+    <ListView
+        android:id="@+id/lotogol_game_list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/line"
+        android:descendantFocusability="beforeDescendants" />
+
+</RelativeLayout>

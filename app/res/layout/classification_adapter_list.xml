@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#7eac64" >
+
+    <LinearLayout
+        android:id="@+id/service_history_circles"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:baselineAligned="false"
+        android:orientation="horizontal" >
+
+            <com.components.Text
+                android:id="@+id/posicao"
+                android:layout_width="0dp"
+                android:layout_weight=".13"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:textColor="@android:color/white"
+                android:textSize="18sp"
+                android:gravity="center"
+                android:layout_marginLeft="10dp"
+                android:textStyle="bold"
+                android:typeface="sans" />
+
+            <View
+                android:id="@+id/view1"
+                android:layout_width="1dp"
+                android:layout_height="fill_parent"
+                android:layout_marginRight="10dp"
+                android:background="#404149" />
+
+            <ImageView
+                android:id="@+id/homeSymbolClassification"
+                android:layout_width="0dp"
+                android:layout_weight=".19"
+                android:gravity="center"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="10dp"
+                android:layout_gravity="center"
+                />
+
+            <View
+                android:id="@+id/view2"
+                android:layout_width="1dp"
+                android:layout_height="fill_parent"
+                android:layout_marginRight="10dp"
+                android:background="#404149" />
+
+            
+            <com.components.Text
+                android:id="@+id/pontos"
+                android:layout_width="0dp"
+                android:layout_weight=".12"
+                android:layout_gravity="center"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="10dp"
+                android:textColor="@android:color/white"
+                android:textSize="18sp"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:typeface="sans" />
+            
+            
+            <View
+                android:id="@+id/view3"
+                android:layout_width="1dp"
+                android:layout_height="fill_parent"
+                android:layout_marginRight="10dp"
+                android:background="#404149" />
+            
+            <com.components.Text
+                android:id="@+id/jogos"
+                android:layout_width="0dp"
+                android:layout_weight=".12"
+                android:layout_gravity="center"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="10dp"
+                android:textColor="@android:color/white"
+                android:textSize="18sp"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:typeface="sans" />
+            
+            
+            <View
+                android:id="@+id/view4"
+                android:layout_width="1dp"
+                android:layout_height="fill_parent"
+                android:layout_marginRight="10dp"
+                android:background="#404149" />
+            
+            
+            
+            <com.components.Text
+                android:id="@+id/vitorias"
+                android:layout_width="0dp"
+                android:layout_weight=".12"
+                android:layout_gravity="center"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="10dp"
+                android:textColor="@android:color/white"
+                android:textSize="18sp"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:typeface="sans" />
+            
+            
+            <View
+                android:id="@+id/view5"
+                android:layout_width="1dp"
+                android:layout_height="fill_parent"
+                android:layout_marginRight="10dp"
+                android:background="#404149" />
+            
+            
+            
+            <com.components.Text
+                android:id="@+id/empates"
+                android:layout_width="0dp"
+                android:layout_weight=".12"
+                android:layout_gravity="center"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="10dp"
+                android:textColor="@android:color/white"
+                android:textSize="18sp"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:typeface="sans" />
+            
+            
+            <View
+                android:id="@+id/view6"
+                android:layout_width="1dp"
+                android:layout_height="fill_parent"
+                android:layout_marginRight="10dp"
+                android:background="#404149" />
+            
+            
+            <com.components.Text
+                android:id="@+id/derrotas"
+                android:layout_width="0dp"
+                android:layout_weight=".12"
+                android:layout_gravity="center"
+                android:layout_height="wrap_content"
+                android:textColor="@android:color/white"
+                android:layout_marginRight="10dp"
+                android:textSize="18sp"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:typeface="sans" />
+
+
+    </LinearLayout>
+
+
+</RelativeLayout>

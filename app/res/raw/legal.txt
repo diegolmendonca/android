@@ -1,0 +1,16 @@
+Esse app visa reunir dados estatísticos e curiosidades sobre o 
+
+
+ campeonato brasileiro de futebol, desde 1971, quando foi oficialmente
+
+
+  considerada a primeira edição. O trabalho aqui feito contém quase 16
+
+
+  mil jogos, coletados com muito esforço. Contamos com a cooperação de 
+ 
+ 
+  nossos usuários para detecção de possíveis discrepâncias nos dados.
+  
+  
+  Por favor, envie-nos um e-mail caso encontre quaisquer falha.

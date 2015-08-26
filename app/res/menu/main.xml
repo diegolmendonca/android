@@ -1,0 +1,13 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+<!--     <item -->
+<!--         android:id="@+id/meu_tme" -->
+<!--         android:orderInCategory="1" -->
+<!--         android:showAsAction="never" -->
+<!--         android:title="Meu time"/> -->
+	<item
+        android:id="@+id/about"
+        android:orderInCategory="2"
+        android:showAsAction="never"
+        android:title="Sobre"/>
+</menu>

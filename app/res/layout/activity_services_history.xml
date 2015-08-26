@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#127826" >
+
+    <com.components.Line
+        android:id="@+id/line"
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/titledsfsd"
+        android:layout_marginTop="10dp"
+        android:background="@color/header_title_line" />
+
+    <ListView
+        android:id="@+id/services_history_list"
+        android:layout_width="match_parent"
+        android:layout_above="@+id/toricda"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/line"
+        android:layout_marginTop="30dp"
+        android:descendantFocusability="beforeDescendants" />
+
+
+
+    <com.components.Text
+        android:id="@+id/titledsfsd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        android:gravity="center_vertical|center_horizontal|center"
+        android:textColor="@android:color/white"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:typeface="sans" />
+    
+    
+    <ImageView
+                android:id="@+id/toricda"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+               android:layout_alignParentBottom="true"
+                android:src="@drawable/torcida"
+                 />
+    
+     <Button android:id="@+id/showButton"
+        android:layout_width="match_parent"
+        android:visibility="gone"
+        android:layout_height="wrap_content"
+        android:onClick="showInterstitial"/>
+
+</RelativeLayout>

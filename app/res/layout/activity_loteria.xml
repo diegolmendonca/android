@@ -1,0 +1,38 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    xmlns:app="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/biblia_background"
+    android:gravity="center"
+    android:layout_alignParentBottom="true"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="130dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="5dp"
+        android:gravity="center" >
+
+        <ImageView
+            android:id="@+id/button_loteca"
+            android:layout_width="111dp"
+            android:layout_height="112dp"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/loteca_icon" />
+
+        <ImageView
+            android:id="@+id/button_lotogol"
+            android:layout_width="111dp"
+            android:layout_height="112dp"
+            android:layout_marginLeft="5dp"
+            android:layout_toRightOf="@+id/button_loteca"
+            android:background="@drawable/lotogol_icon" />
+        
+        </RelativeLayout>
+
+
+    
+
+</LinearLayout>

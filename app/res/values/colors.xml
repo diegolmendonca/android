@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<!-- custom light theme: -->
+	<color name="dialog_message_text">#333333</color>
+	<color name="dialog_title_text">#f3a71e</color>
+	<color name="dialog_title_separator">#f3a71e</color>
+	<color name="dialog_button_text">#333333</color>
+	<color name="dialog_button_normal">@android:color/transparent</color>
+	<color name="dialog_button_pressed">#99f3a71e</color> <!-- 60 % opacity -->
+	<color name="dialog_button_focused">#4Cf3a71e</color> <!-- 30 % opacity -->
+	<color name="dialog_button_separator">#25000000</color> <!-- 7% opacity -->
+	<color name="background">#FFA500</color>
+	<!-- custom dark theme: -->
+	<color name="dialog_message_text_dark">#FFFFFF</color>
+	<color name="dialog_title_text_dark">#F8A500</color>
+	<color name="dialog_title_separator_dark">#F8A500</color>
+	<color name="dialog_button_text_dark">#FFFFFF</color>
+	<color name="dialog_button_normal_dark">@android:color/transparent</color>
+	<color name="dialog_button_pressed_dark">#99F8A500</color> <!-- 60 % opacity -->
+	<color name="dialog_button_focused_dark">#4CF8A500</color> <!-- 30 % opacity -->
+	<color name="dialog_button_separator_dark">#12FFFFFF</color> <!-- 7% opacity -->
+	<color name="background_dark">#C35817</color>
+	
+	
+	<color name="purple_light">#a276eb</color> 
+    <color name="purple_middle">#8658ce</color>
+    <color name="purple_dark">#6a3ab2</color>
+	
+	<!-- notifications -->
+	<color name="none_notification_text_blue">#7daac9</color>
+	
+	<!-- header -->
+	<color name="header_title_line">#5e7289</color>
+	
+	<!-- benefits -->
+	<color name="benefits_detail_background">#033b61</color>
+	<color name="benefits_list_separator_background">#022b46</color>
+	<color name="benefits_list_benefit_message">#56b6f7</color>
+	<color name="benefits_list_benefit_date">#b8b8b8</color>
+	<color name="benetif_container">#0c65a1</color>
+	
+	<!-- footer -->
+	<color name="footer_last_line">#002443</color>
+	<color name="footer_bar">#60091b</color>
+	
+	<!--  login -->
+	<color name="login_fragment_background">#60091b</color>
+	
+</resources>

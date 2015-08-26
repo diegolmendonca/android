@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+    
+    <item name="list_item_rodada_id" type="slidingmenu" />
+    <item name="list_item_rodada_label" type="slidingmenu">"RODADA DA SEMANA"</item>
+    <item name="list_item_rodada_icon" type="slidingmenu">"@drawable/rodada_atual_icon"</item>
+    
+    <item name="list_item_ano_a_ano_id" type="slidingmenu" />
+    <item name="list_item_ano_a_ano_label" type="slidingmenu">"DESEMPENHO POR ANO"</item>
+    <item name="list_item_ano_a_ano_icon" type="slidingmenu">"@drawable/ano_a_ano_icon"</item>
+    
+    <item name="list_item_historico_id" type="slidingmenu" />
+    <item name="list_item_historico_label" type="slidingmenu">"HISTÓRICO"</item>
+    <item name="list_item_historico_icon" type="slidingmenu">"@drawable/historico_icon</item>
+    
+    <item name="list_item_brasileirao_id" type="slidingmenu" />
+    <item name="list_item_brasileirao_label" type="slidingmenu">"BRASILEIRÃO"</item>
+    <item name="list_item_brasileirao_icon" type="slidingmenu">"@drawable/brasileirao_icon"</item>
+    
+    <item name="list_item_meu_time_id" type="slidingmenu" />
+    <item name="list_item_meu_time_label" type="slidingmenu">"MUDE SEU TIME"</item>
+    <item name="list_item_meu_time_icon" type="slidingmenu">"@drawable/favorito_icon"</item>
+    
+    
+    <item name="list_loteria_id" type="slidingmenu" />
+    <item name="list_loteria_label" type="slidingmenu">"LOTERIAS"</item>
+    <item name="list_loteria_icon" type="slidingmenu">"@drawable/loteria"</item>
+    
+    <item name="list_cruzamento_id" type="slidingmenu" />
+    <item name="list_cruzamento_label" type="slidingmenu">"Cruzamento de Dados"</item>
+    <item name="list_cruzamento_icon" type="slidingmenu">"@drawable/favorito_icon"</item>
+    
+    
+</resources>

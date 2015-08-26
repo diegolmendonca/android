@@ -1,0 +1,36 @@
+# Routes
+# This file defines all application routes (Higher priority routes first)
+# ~~~~
+
+# Home page
+
+GET     /gameStatistics/home/:homeTeam/away/:awayTeam  controllers.Application.getGameStatistics(homeTeam: String, awayTeam:String)
+
+GET     /gameStatisticsByYear/home/:homeTeam/away/:awayTeam/start/:startYear/end/:endYear  controllers.Application.getGameStatisticsByYear(homeTeam: String, awayTeam:String,startYear: String, endYear:String)
+
+GET     /gameYear/start/:startYear/end/:endYear  controllers.Application.getGameByYearRange(startYear: String, endYear:String)
+
+GET     /victoriesHome/start/:startYear/end/:endYear/team/:team  controllers.Application.findResultPerHomeTeamPerYearRange(startYear: String, endYear:String , team:String)
+
+GET     /victoriesAway/start/:startYear/end/:endYear/team/:team  controllers.Application.findResultPerAwayTeamPerYearRange(startYear: String, endYear:String , team:String)
+
+GET     /victoriesBoth/start/:startYear/end/:endYear/team/:team  controllers.Application.findResultPerHomeAndAwayTeamPerYearRange(startYear: String, endYear:String , team:String)
+
+GET   	/brasileirao/stats/home/:team  controllers.BrasileiraoData.getBrasileiraoHomeTeamGames(team:String)
+
+GET   	/brasileirao/stats/away/:team  controllers.BrasileiraoData.getBrasileiraoAwayTeamGames(team:String)
+
+GET   	/brasileirao/stats/goals/pro/home/:team  controllers.BrasileiraoData.getBrasileiraoHomeTeamProGoals(team:String)
+
+GET   	/brasileirao/stats/goals/taken/home/:team  controllers.BrasileiraoData.getBrasileiraoHomeTeamTakenGoals(team:String)
+
+GET   	/brasileirao/stats/goals/pro/away/:team  controllers.BrasileiraoData.getBrasileiraoAwayTeamProGoals(team:String)
+
+GET   	/brasileirao/stats/goals/taken/away/:team  controllers.BrasileiraoData.getBrasileiraoAwayTeamTakenGoals(team:String)
+
+GET 	/currentRound controllers.Rodada.getCurrentRound()
+
+GET 	/classificacao controllers.ClassificacaoController.getClassificacao()
+
+# Map static resources from the /public folder to the /assets URL path
+GET     /assets/*file               controllers.Assets.at(path="/public", file)

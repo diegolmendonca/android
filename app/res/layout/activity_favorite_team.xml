@@ -1,0 +1,90 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    xmlns:app="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/biblia_background"
+    android:orientation="vertical"
+    android:weightSum="10" >
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="4dp"
+        android:layout_gravity="top"
+        android:background="#60091b" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="3"
+        android:gravity="center" >
+    </LinearLayout>
+
+    <com.components.Line
+        android:id="@+id/line"
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_marginTop="10dp"
+        android:background="@color/header_title_line" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="3"
+        android:gravity="center" >
+
+        <ImageView
+            android:id="@+id/teamSymbol"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:layout_marginTop="15dp"
+            android:contentDescription="@string/symbol" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        android:gravity="center" >
+
+        <TextView
+            android:id="@+id/team"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:singleLine="true"
+            android:textColor="@android:color/white"
+            android:textSize="29sp"
+            android:textStyle="bold"
+            android:typeface="sans" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        android:gravity="center" >
+
+        <Button
+            android:id="@+id/button_change_team"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="27dp"
+            android:drawableLeft="@drawable/change_team"
+            android:text="Mude seu time" />
+    </LinearLayout>
+    
+    
+       <LinearLayout 
+               android:layout_width="fill_parent"
+               android:layout_height="wrap_content"
+               android:orientation="vertical"
+               android:gravity="right">
+               <com.google.android.gms.ads.AdView android:id="@+id/adViewFavorite"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        ads:adUnitId="ca-app-pub-2728430253641042/9339717617"
+                        ads:adSize="BANNER"/>
+     </LinearLayout>
+
+</LinearLayout>

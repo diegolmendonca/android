@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="#ECF0EF"
+    android:layout_height="60dp"
+    android:weightSum="11" >
+    
+    <com.components.Text
+        android:id="@+id/loteca_jogo_numero"
+        android:layout_weight="0.8"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:gravity="left"
+        android:textColor="#666666"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:typeface="sans" />
+
+    <ImageView
+        android:id="@+id/rectimage1"
+         android:layout_width="0dp"
+        android:layout_height="30dp"
+        android:layout_weight="0.5"
+        android:src="@drawable/rectangle" >
+    </ImageView>
+
+    <com.components.Text
+        android:id="@+id/loteca_time_1"
+        android:layout_weight="4"
+        android:layout_marginLeft="5dp"
+         android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:gravity="left"
+        android:textColor="#666666"
+        android:textSize="12sp"
+        android:textStyle="bold"
+        android:typeface="sans" />
+    
+    
+    <ImageView
+        android:id="@+id/rectimage2"
+        android:layout_height="30dp"
+         android:layout_width="0dp"
+        android:layout_weight="0.5"
+        android:src="@drawable/rectangle" >
+    </ImageView>
+    
+    <com.components.Text
+        android:id="@+id/loteca_time_2"
+        android:layout_weight="4"
+         android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:gravity="right"
+        android:layout_marginRight="5dp"
+        android:textColor="#666666"
+        android:textSize="12sp"
+        android:textStyle="bold"
+        android:typeface="sans" />
+    
+    <ImageView
+        android:id="@+id/rectimage3"
+         android:layout_width="0dp"
+        android:layout_height="30dp"
+        android:layout_weight="0.5"
+        android:src="@drawable/rectangle" >
+    </ImageView>
+
+</LinearLayout>

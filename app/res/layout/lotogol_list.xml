@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="#ECF0EF"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+ >
+    
+  <LinearLayout 
+    android:layout_width="match_parent"
+    android:background="#ECF0EF"
+    android:layout_height="40dp"
+    android:orientation="horizontal"
+    android:weightSum="11" >
+    <com.components.Text
+        android:id="@+id/lotogol_time_1"
+        android:layout_width="0dp"
+        android:layout_height="25dp"
+        android:layout_weight="5.5"
+        android:gravity="left"
+        android:textColor="#666666"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:typeface="sans" />
+    
+    <ImageView
+        android:id="@+id/lotogol_image1"
+         android:layout_width="0dp"
+         android:layout_marginRight="10dip"
+          android:layout_marginTop="5dp"
+        android:layout_height="30dp"
+        android:layout_weight="5.5"
+        android:src="@drawable/numeros_lotogol" >
+    </ImageView>
+    
+    </LinearLayout>
+    
+  <LinearLayout 
+    android:layout_width="match_parent"
+    android:background="#ECF0EF"
+    android:layout_height="30dp"
+    android:orientation="horizontal"
+    android:weightSum="11" >
+    <com.components.Text
+        android:id="@+id/lotogol_vs"
+        android:layout_width="0dp"
+        android:layout_height="25dp"
+        android:layout_weight="5.5"
+        android:gravity="left"
+        android:text=" X "
+        android:textColor="#666666"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:typeface="sans" />
+    
+    </LinearLayout>
+    
+    
+    <LinearLayout 
+    android:layout_width="match_parent"
+    android:background="#ECF0EF"
+    android:layout_height="40dp"
+    android:orientation="horizontal"
+    android:weightSum="11" >
+    
+    <com.components.Text
+        android:id="@+id/lotogol_time_2"
+        android:layout_width="0dp"
+        android:layout_height="25dp"
+        android:layout_weight="5.5"
+        android:gravity="left"
+        android:textColor="#666666"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:typeface="sans" />
+    
+    <ImageView
+        android:id="@+id/lotogol_image2"
+         android:layout_width="0dp"
+         android:layout_marginRight="10dip"
+        android:layout_height="30dp"
+        android:layout_weight="5.5"
+        android:src="@drawable/numeros_lotogol" >
+    </ImageView>
+</LinearLayout>  
+
+        <com.components.Line
+        android:id="@+id/line"
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="@color/header_title_line" />
+    
+
+</LinearLayout>
+
+
+
+    
+    
