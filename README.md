@@ -13,3 +13,6 @@ The server code is inside "scala-server" folder.
 The app code, inside "app" folder.
 
 I have attached some screenshots inside "screen-shots" folder.
+
+
+
